@@ -1,0 +1,11 @@
+name: cortex_gen_ai_workplace_policies
+channels:
+  - snowflake
+dependencies:
+  - python=3.11
+  - snowflake-ml-python
+  - ipykernel
+  - pip
+  - pip:
+    - snowflake
+
